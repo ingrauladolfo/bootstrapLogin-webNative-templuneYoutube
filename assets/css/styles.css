@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+:root{
+    --dark:#16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+}
+body{
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 300;
+    color: var(--light);
+}
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background: var(--dark-x);
+}
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
